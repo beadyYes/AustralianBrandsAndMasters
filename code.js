@@ -4,6 +4,8 @@
 //philadelphia cream cheese is dual owned by two of the master companies so it appears twice on the list.
 //for the overall ownership graph this was irrelevant
 
+//for other graphs this may be relevant
+
 const brands = {
     "Wonka" : {
         "type" : 0,
