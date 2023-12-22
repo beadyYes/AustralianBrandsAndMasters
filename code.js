@@ -5,7 +5,7 @@
 //for the overall ownership graph this was irrelevant
 
 //for other graphs this may be relevant
-//import cy from "./node_modules/cytoscape/dist/cytoscape.min.js"
+//import * as cytoscape from "./node_modules/cytoscape/dist/cytoscape.min.js"
 
 const brands = {
     "Wonka" : {

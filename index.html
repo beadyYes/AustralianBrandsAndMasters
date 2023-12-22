@@ -6,12 +6,21 @@
 <meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
 <title>Images</title>
 <!-- <script src="../node_modules/cytoscape/dist/cytoscape.min.js"></script> -->
-<script type="module" src="./node_modules/cytoscape/dist/cytoscape.min.js"></script>
+<!-- <script type="module" src="./node_modules/cytoscape/dist/cytoscape.min.js"></script> -->
+
+<script src="https://unpkg.com/cytoscape@3.21.0/dist/cytoscape.min.js"></script>
+<script src="https://unpkg.com/layout-base@2.0.1/layout-base.js"></script>
+<script src="https://unpkg.com/cose-base@2.1.0/cose-base.js"></script>
+<script src="https://unpkg.com/cytoscape-fcose@2.1.0/cytoscape-fcose.js"></script>
+<script src="https://unpkg.com/cytoscape-expand-collapse@4.1.0/cytoscape-expand-collapse.js"></script>
+<script src="https://unpkg.com/pure-uuid@1.6.2/uuid.js"></script>
+
 
 </head>
 <body>
 <div id="cy"></div>
 <!-- Load application code at the end to ensure DOM is loaded -->
+<!-- <script type="module" src="./node_modules/cytoscape/dist/cytoscape.min.js"></script> -->
 <script type="module" src="code.js"></script>
 </body>
 </html>
